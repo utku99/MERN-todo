@@ -5,7 +5,7 @@ import { ADDNEW_TODO, GETALL_TODO, TOGGLE_TODO, UPDATE_TODO, DELETE_TODO, TOGGLE
 const API_URL = 'http://localhost:8000';
 //http://localhost:8000
 //https://utkuaksoytodo.onrender.com/
-//https://utkuaksoytodo-backend.onrender.com/
+
 
 export const addNewTodo = (data) => async (dispatch) => {
     try {
